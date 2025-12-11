@@ -1,4 +1,4 @@
-Sure — here is a clean, polished **README.md in English** for your project.
+
 
 ---
 
