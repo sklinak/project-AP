@@ -14,7 +14,7 @@ The communication is done through a single file `ipc.bin`, which stores a fixed-
 
 ---
 
-## 📌 Features
+##� Features
 
 * IPC using a regular file (no sockets, no message queues, no pipes).
 * Full request–response lifecycle with proper synchronization.
@@ -29,7 +29,7 @@ The communication is done through a single file `ipc.bin`, which stores a fixed-
 
 ---
 
-## 🧱 Communication Protocol
+##  Communication Protocol
 
 The shared file stores the following structure:
 
@@ -65,22 +65,22 @@ struct Message {
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
-### 🔧 Compile
+###  Compile
 
 ```bash
 g++ -std=c++17 server.cpp -o server
 g++ -std=c++17 client.cpp -o client
 ```
 
-### ▶️ Start the server
+### Start the server
 
 ```bash
 ./server
 ```
 
-### ▶️ Start the client (in another terminal)
+### Start the client (in another terminal)
 
 ```bash
 ./client
@@ -88,7 +88,7 @@ g++ -std=c++17 client.cpp -o client
 
 ---
 
-## 💬 Client Commands
+## Client Commands
 
 The client accepts arbitrary text requests.
 Additionally, it supports special commands:
@@ -100,7 +100,7 @@ Additionally, it supports special commands:
 
 ---
 
-## 🧪 Testing & Error Simulation
+## Testing & Error Simulation
 
 These test inputs trigger different behaviors on the server:
 
@@ -114,7 +114,7 @@ These test inputs trigger different behaviors on the server:
 
 ---
 
-## 📄 Example Exchange
+## Example Exchange
 
 **Client → Server:**
 
@@ -130,7 +130,7 @@ OK
 
 ---
 
-## 📚 Server Logic Overview
+## Server Logic Overview
 
 The server:
 
@@ -142,7 +142,7 @@ The server:
 
 ---
 
-## 🧹 Graceful Shutdown Behavior
+## Finish
 
 On shutdown:
 
@@ -154,7 +154,7 @@ This prevents the system from staying in a locked/busy state after unexpected ex
 
 ---
 
-## 📦 Project Structure
+## Project Structure
 
 ```
 /project
